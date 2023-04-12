@@ -38,4 +38,6 @@ func main() {
 	//inheritance
 	student1 := student{usuario2, "Course", "College"}
 	fmt.Println((student1))
+
+	call_variables()
 }
