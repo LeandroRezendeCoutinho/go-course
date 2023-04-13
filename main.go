@@ -40,4 +40,8 @@ func main() {
 	fmt.Println((student1))
 
 	call_variables()
+
+	call_array()
+
+	call_slice()
 }
