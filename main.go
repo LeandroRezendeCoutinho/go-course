@@ -9,7 +9,7 @@ func main() {
 	sum := sum(1, 2)
 	fmt.Println(sum)
 
-	result := f("Texto da função")
+	result := f("function text")
 	fmt.Println(result)
 
 	sumResult, subResult := calculations(10, 20)
@@ -44,4 +44,6 @@ func main() {
 	call_array()
 
 	call_slice()
+
+	call_maps()
 }
