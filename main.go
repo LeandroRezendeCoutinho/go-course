@@ -48,4 +48,6 @@ func main() {
 	call_maps()
 
 	call_control_structures()
+
+	call_loops()
 }
