@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"course/functions"
+	"fmt"
+)
 
 func main() {
 	fmt.Print("Course")
@@ -50,4 +53,6 @@ func main() {
 	call_control_structures()
 
 	call_loops()
+
+	functions.Call_named_return()
 }
