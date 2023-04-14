@@ -46,4 +46,6 @@ func main() {
 	call_slice()
 
 	call_maps()
+
+	call_control_structures()
 }
