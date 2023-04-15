@@ -56,4 +56,5 @@ func main() {
 
 	functions.Call_named_return()
 	functions.Call_variatic()
+	functions.Call_anonimous()
 }
