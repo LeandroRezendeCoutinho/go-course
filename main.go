@@ -55,4 +55,5 @@ func main() {
 	call_loops()
 
 	functions.Call_named_return()
+	functions.Call_variatic()
 }
