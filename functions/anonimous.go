@@ -6,5 +6,6 @@ func Call_anonimous() {
 		return a + b
 	}(1, 2)
 
+	println("Anonimous function of sum 1 + 2")
 	println(sum)
 }
