@@ -58,4 +58,5 @@ func main() {
 	functions.Call_variatic()
 	functions.Call_anonimous()
 	functions.Call_recursive()
+	functions.Call_defer()
 }
