@@ -66,4 +66,6 @@ func main() {
 	functions.Call_panic_recover()
 	functions.Call_closures()
 	functions.Call_pointer()
+
+	Call_methods()
 }
