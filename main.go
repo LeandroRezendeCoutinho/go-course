@@ -5,8 +5,12 @@ import (
 	"fmt"
 )
 
+func init() {
+	fmt.Println("Initiating application")
+}
+
 func main() {
-	fmt.Print("Course")
+	fmt.Println("Course")
 
 	// function
 	sum := sum(1, 2)
