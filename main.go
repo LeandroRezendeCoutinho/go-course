@@ -61,4 +61,5 @@ func main() {
 	functions.Call_defer()
 	functions.Call_panic_recover()
 	functions.Call_closures()
+	functions.Call_pointer()
 }
