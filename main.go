@@ -59,4 +59,5 @@ func main() {
 	functions.Call_anonimous()
 	functions.Call_recursive()
 	functions.Call_defer()
+	functions.Call_panic_recover()
 }
