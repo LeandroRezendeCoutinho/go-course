@@ -69,4 +69,5 @@ func main() {
 
 	Call_methods()
 	Call_interfaces()
+	Call_generics()
 }
