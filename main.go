@@ -68,4 +68,5 @@ func main() {
 	functions.Call_pointer()
 
 	Call_methods()
+	Call_interfaces()
 }
