@@ -6,12 +6,34 @@ import (
 )
 
 func main() {
+	rangeChannel()
+	breakChannel()
+}
+
+func rangeChannel() {
 	canal := make(chan string)
 	go escrever("Olá Mundo!", canal)
 
 	fmt.Println("Depois da função escrever começar a ser executada")
 
 	for mensagem := range canal {
+		fmt.Println(mensagem)
+	}
+
+	fmt.Println("Fim do programa!")
+}
+
+func breakChannel() {
+	canal := make(chan string)
+	go escrever("Olá Mundo!", canal)
+
+	fmt.Println("Depois da função escrever começar a ser executada")
+
+	for {
+		mensagem, aberto := <-canal
+		if !aberto {
+			break
+		}
 		fmt.Println(mensagem)
 	}
 
